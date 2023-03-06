@@ -763,6 +763,10 @@ section .container {
 .services .icon-box:hover p {
   color: #fff;
 }
+.link-contact{
+  margin: 10px 0 8px 68px;
+  display: block;
+}
 
 /*--------------------------------------------------------------
 # Portfolio
