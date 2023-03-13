@@ -90,11 +90,12 @@ h6 {
   font-size: 24px;
   margin-top: 20px;
   color: rgba(255, 255, 255, 0.8);
+  max-width: 450px;
 }
 
 #header h2 span {
-  color: #fff;
-  border-bottom: 2px solid #18d26e;
+  font-size: 30px;
+  color: #18d26e;
   padding-bottom: 6px;
 }
 
@@ -1196,4 +1197,31 @@ section .container {
 
 .credits a:hover {
   color: #fff;
+}
+.mobile-nav-toggle::before{
+  color: #18d26e;
+}
+.main-title{
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.header-top > div > h1{
+  display: none;
+}
+@media(max-width:450px){
+  #header h1 {
+    color: #000;
+}
+#header h2 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+}
+body::before{
+  opacity: 0.8;
+}
 }
